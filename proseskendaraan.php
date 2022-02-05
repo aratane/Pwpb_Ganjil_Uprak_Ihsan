@@ -18,7 +18,7 @@ if (isset($_POST['simpan'])) {
         echo "Data berhasil ditambah !";
         echo "$sql";
     } else {
-        echo "Data gagal ditambah !"
+        echo "Data gagal ditambah !";
         echo mysqli_error($db);
     } 
 } else {
